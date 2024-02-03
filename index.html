@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+<header>
+  <h1>Simple Quiz</h1>
+</header><br>
+<img src="images.jpg" width="400px" height="100px">
+<div> 
+    <p>
+      <label style="touch-action: auto; display:right">
+       Are you Single?(yes or no) <input type="text" id="demo1">
+      <label>
+  <button onclick="myfunction1()" value="submit">submit</button>
+  <marquee><p id="demo2"></p></marquee>
+    
+  </label></label></p></div><br>
+
+  <div> 
+    <p>
+      <label style="touch-action: auto; display:right">
+       Are you in love?(yes or no) <input type="text" id="demo3">
+      <label>
+  <button onclick="myfunction2()" value="submit">submit</button>
+  <marquee><p id="demo4"></p></marquee>
+    
+  </label></label></p></div><br>
+
+  <div> 
+    <p>
+      <label style="touch-action: auto; display:right">
+       How was ur day(good or bad) <input type="text" id="demo5">
+      <label>
+  <button onclick="myfunction3()" value="submit">submit</button>
+  <marquee><p id="demo6"></p></marquee>
+    
+  </label></label></p></div>
+<script>
+  
+  function myfunction1(){
+           var a=document.getElementById("demo1").value;
+           if(a=="yes"){
+            b="stay single bro";
+           }
+           else{
+            b="sry about you";
+           }
+           document.getElementById("demo2").innerHTML=b;
+  
+        }
+  function myfunction2(){
+           var a=document.getElementById("demo3").value;
+           if(a=="yes"){
+            b="ur chosen the wrong way";
+           }
+           else{
+            b="ur going on your goal way ";
+           }
+           document.getElementById("demo4").innerHTML=b;
+        }
+        function myfunction3(){
+           var a=document.getElementById("demo5").value;
+           if(a=="good"){
+            b="Nice day";
+           }
+           else{
+            b="Bad day ";
+           }
+           document.getElementById("demo6").innerHTML=b;
+        }
+
+</script>
+
+</body>
+</html>
+

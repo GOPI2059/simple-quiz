@@ -1,0 +1,19 @@
+/*header style*/
+header {
+    text-align: center; 
+    padding: 20px;
+    color: rgb(1, 4, 7);
+    word-spacing: 30px;
+    padding: 10px;
+    background-color: #926911
+ }
+div {
+    text-align: center; 
+    word-spacing: 10px;
+    padding: 10px;
+    background-color: #fa9c22   
+} 
+body {
+    background-image: url(background.jpg);
+    background-color: #502b0c;
+}
