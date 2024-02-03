@@ -14,6 +14,7 @@ div {
     background-color: #fa9c22   
 } 
 body {
-    background-image: url(background.jpg);position:no repeat;
-    
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
